@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+header{
+    background-color: #EAC926;
+    font-family: "Roboto", sans-serif;
+    padding:10px;
+}
+.searchbar{
+    margin: auto; 
+} 
+.barra{
+    width:80%;
+    height: 25px;
+}
+.burger-menu{
+    display:block;
+    background-color: #1259c3;
+    color: white;
+    padding: 5px;
+    margin:2px auto;
+    font-size: 20px;
+}
+.navbar{
+    display:none;
+}
+.login-bar{
+    display:none;
+}
+a{
+    color:black;
+}
+h2{
+    margin:auto;
+    padding:10px;
+    width:200px;
+}
+ul{
+    padding: 10px;
+    margin: auto;
+}
+main{
+    margin:0;
+    width: 100%;
+    background-color:#ebebeb;
+    font-family: "Roboto", sans-serif;
+}
+.registro{
+    margin:auto;
+    padding:20px;
+    width: 400px;
+    background-color: white;
+}
+.boton{
+    display:flex;
+    
+    margin: 10px;
+    justify-content: space-around;
+}
+.borrar{
+    width:40%;
+    padding: 1em;
+}
+.enviar{
+    width:40%;
+    padding: 1em;
+    background-color: #2389fd;
+}
+footer{
+    background-color:white;
+    margin:auto;
+    width: 75%;
+}
+.icon{
+    color:#1259c3;
+    display:block;
+    margin:auto;
+    padding: 2em;
+    width: 90px;
+    font-size: 30px;
+}
+
+@media(min-width:600px){
+    .burger-menu{
+      display: none;
+    }
+    .navbar{
+   display:block;
+   width: 50%;
+   display:flex;
+   justify-content: space-around;
+    }
+   .login-bar{
+       display:block;
+       width: 50%;
+       display:flex;
+       justify-content: space-around;
+   }
+   header{
+       display:flex;
+       flex-wrap: wrap;
+   }
+   .imagen{
+       width: 33.3%;
+   }
+   .searchbar{
+       width: 33.3%;
+   }
+   .cuotas{
+       width: 33.3%;
+       padding:5%;
+   }
+   .opciones{
+       display: flex;
+       flex-wrap: wrap;
+       width: 100%;
+       flex-direction: row;
+       justify-content: space-around;
+       padding:15px;
+   }
+   
+}
+@media(min-width:1024px){
+    .enviar:hover{
+        background-color: #0022AA;
+    }
+    footer{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .bot{
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .icon:hover{
+        color:#3083ff;
+    }
+}
